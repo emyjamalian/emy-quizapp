@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  row-gap: 20px;
+  box-shadow: 0 4px 8px 0 grey;
+  background-color: #b9b3a9;
+  border-radius: 5px;
+  transition: 0.3s;
+  padding: 40px 40px;
+  margin: 20px;
+  opacity: 100%;
+  color: #000;
+}
+
+/* .card:hover {
+    opacity: 100%;
+  } */
+
+.question {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  row-gap: 10px;
+  color: #000;
+  font-size: 20px;
+}
+
+.answer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  row-gap: 10px;
+}
+
+button {
+  border: solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.show-answer {
+  display: none;
+}

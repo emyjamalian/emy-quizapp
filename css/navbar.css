@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #b9b3a9;
+  box-sizing: border-box;
+  left: 0;
+  border: 1px solid #202020;
+  box-shadow: 10px 10px 5px #888;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.navbar .active {
+  background-color: rgb(63, 32, 32);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
