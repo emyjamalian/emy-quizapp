@@ -13,9 +13,9 @@
   color: #000;
 }
 
-/* .card:hover {
-    opacity: 100%;
-  } */
+.card:hover {
+  opacity: 100%;
+}
 
 .question {
   display: flex;
