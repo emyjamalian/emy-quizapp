@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Andrei Quiz-App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="resources/artist_logo-600x123.png" alt="Artist logo" />
+    </header>
+    <main class="profile-page">
+      <section class="profile-container">
+        <img
+          src="https://en.wikipedia.org/wiki/Taylor_Swift#/media/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+          alt="Profile picture"
+          class="profile-image"
+        />
+        <h2 class="profile-name">Taylor Swift</h2>
+      </section>
+
+      <section class="about">
+        <h3>About me</h3>
+        <p>
+          Taylor Alison Swift is an American singer-songwriter. Recognized for
+          her songwriting, musical versatility, artistic reinventions, and
+          influence on the music industry, she is a prominent cultural figure of
+          the 21st century.
+        </p>
+      </section>
+      <div class="about-counter">
+        <div class="about-quiz-counter">
+          <img src="resources/question.svg" alt="icon" />
+          <h3>12</h3>
+        </div>
+        <div class="about-bookmark-counter">
+          <img src="resources/bookmark-filled.svg" alt="icon" />
+        </div>
+      </div>
+
+      <div class="settings">
+        <h3>Settings</h3>
+        <section class="dark-mode-settings">
+          <label class="switch"
+            ><input type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </section>
+      </div>
+    </main>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+        </li>
+        <li><a href="bookmark.html">Bookmark</a></li>
+        <li>
+          <a href="pages/profile.html"
+            ><i class="fa fa-fw fa-user"></i>Profile</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
