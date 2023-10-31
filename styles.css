@@ -5,54 +5,108 @@
 }
 
 body {
-  font-family: sans-serif;
-  background: #b9b3a9;
   display: flex;
   justify-content: center;
-  align-items: center;
+  font-family: sans-serif;
+  background-color: #b9b3a9;
+  background-image: url("resources/Taylor-Swift-Eras-Tour.jpg");
 }
 
 .navbar {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(8, 170, 164);
+  background-color: #b9b3a9;
   box-sizing: border-box;
+  left: 0;
+  border: 1px solid #202020;
+  box-shadow: 10px 10px 5px #888;
 }
 
-a {
+.navbar a {
   display: block;
   padding: 10px;
-  color: black;
+  color: white;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.navbar .active {
+  background-color: rgb(63, 32, 32);
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 header {
-  box-sizing: content-box;
+  font-style: bold;
   position: fixed;
-  background-color: rgb(8, 170, 164);
+  background-color: #b9b3a9;
   width: 100%;
   justify-content: center;
   top: 0;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
+  border: 1px solid #202020;
+}
+
+img {
+  max-width: 200px;
 }
 
 .card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  row-gap: 20px;
   box-shadow: 0 4px 8px 0 grey;
-  background-color: beige;
+  background-color: #b9b3a9;
   border-radius: 5px;
   transition: 0.3s;
-  margin: 10px;
-  padding: 10px 10px;
-  margin: 10px;
+  padding: 40px 40px;
+  margin: 20px;
+  opacity: 100%;
+  color: #000;
 }
 
-.quiz {
-  margin: 50px;
+/* .card:hover {
+  opacity: 100%;
+} */
+
+main {
+  margin: 70px;
+}
+
+.question {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  row-gap: 10px;
+  color: #000;
+  font-size: 20px;
+}
+
+.answer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  row-gap: 10px;
+}
+
+button {
+  border: solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.show-answer {
+  display: none;
 }
