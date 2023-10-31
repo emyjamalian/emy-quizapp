@@ -1,6 +1,8 @@
 @import "header.css";
 @import "cards.css";
 @import "navbar.css";
+@import "bookmark-page.css";
+@import "profile-page.css";
 
 * {
   margin: 0;
