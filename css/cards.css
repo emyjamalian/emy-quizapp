@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
   row-gap: 20px;
   box-shadow: 0 4px 8px 0 grey;
   background-color: #b9b3a9;
@@ -50,4 +49,17 @@ button {
 
 .show-answer {
   display: none;
+}
+
+.tag {
+  display: flex;
+  column-gap: 10px;
+}
+
+.tag p {
+  background-color: #717171;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
 }
