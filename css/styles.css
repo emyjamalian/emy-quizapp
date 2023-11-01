@@ -3,6 +3,7 @@
 @import "navbar.css";
 @import "bookmark-page.css";
 @import "profile-page.css";
+@import "css/switch.css";
 
 * {
   margin: 0;

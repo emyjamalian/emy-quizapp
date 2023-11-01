@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="resources/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrei Quiz-App</title>
+    <title>Emy's quiz app</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,7 +15,7 @@
     <main class="profile-page">
       <section class="profile-container">
         <img
-          src="https://en.wikipedia.org/wiki/Taylor_Swift#/media/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+          src="resources/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards.png"
           alt="Profile picture"
           class="profile-image"
         />
@@ -29,19 +31,21 @@
           the 21st century.
         </p>
       </section>
-      <div class="about-counter">
-        <div class="about-quiz-counter">
+      <section class="counters">
+        <span class="counter-icons">
           <img src="resources/question.svg" alt="icon" />
           <h3>12</h3>
-        </div>
-        <div class="about-bookmark-counter">
+        </span>
+        <span class="counter-icons">
           <img src="resources/bookmark-filled.svg" alt="icon" />
-        </div>
-      </div>
+          <h3>1</h3>
+        </span>
+      </section>
 
       <div class="settings">
         <h3>Settings</h3>
         <section class="dark-mode-settings">
+          <p>Dark Mode Settings</p>
           <label class="switch"
             ><input type="checkbox" checked />
             <span class="slider round"></span>

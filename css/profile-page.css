@@ -1,3 +1,78 @@
+/* user profile */
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-image {
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.profile-name {
+  align-self: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.about {
+  padding-top: 50px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.profile h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.about p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.counters {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.counter-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 2px solid var(---primary-color);
+  border-radius: 5px;
+  padding: 10px;
+}
+.counters h3 {
+  font-size: 25px;
+}
+.counters img {
+  width: 25px;
+}
+
+/* settings */
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.dark-mode-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.dark-mode-settings p {
+  margin: 20px;
+}
+
+/* Switch */
+
 .switch {
   position: relative;
   display: inline-block;
@@ -5,12 +80,14 @@
   height: 34px;
 }
 
+/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
+/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -23,10 +100,37 @@
   transition: 0.4s;
 }
 
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 input:checked + .slider {
   background-color: #2196f3;
 }
 
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
