@@ -1,5 +1,12 @@
 /* user profile */
 
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #b9b3a9;
+  border-radius: 10px;
+}
+
 .profile-container {
   display: flex;
   justify-content: space-around;
@@ -57,7 +64,8 @@
 .settings {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .dark-mode-settings {
@@ -72,7 +80,6 @@
 }
 
 /* Switch */
-
 .switch {
   position: relative;
   display: inline-block;

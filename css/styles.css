@@ -1,10 +1,7 @@
 @import "header.css";
 @import "cards.css";
 @import "navbar.css";
-@import "bookmark-page.css";
 @import "profile-page.css";
-@import "css/switch.css";
-
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +12,12 @@ body {
   /* display: flex;
   justify-content: center; */
   font-family: sans-serif;
-  /* background-color: #b9b3a9; */
+  background-color: #b9b3a9;
   background-image: url("../resources/Taylor-Swift-Eras-Tour.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 main {
