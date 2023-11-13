@@ -8,12 +8,8 @@
   border-radius: 5px;
   padding: 40px 40px;
   margin: 40px;
-  opacity: 5%;
-  color: #000;
-}
-
-.card:hover {
   opacity: 100%;
+  color: #000;
 }
 
 .card img {
