@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+    justify-content: center; */
+  font-family: sans-serif;
+  background-color: #b9b3a9;
+  background-image: url("../resources/Taylor-Swift-Eras-Tour.jpg");
+  /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; */
+}
+
+main {
+  margin: 70px;
+}
